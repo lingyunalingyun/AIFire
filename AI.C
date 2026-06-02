@@ -17,7 +17,7 @@ typedef struct {
 } AI_Result;
 
 // ⚠️ 请在此处填入你的 DeepSeek API Key
-const char* API_KEY = "***REMOVED***";
+const char* API_KEY = "your API";
 
 AI_Result CallDeepSeek_API(int temperature, int smoke) {
     AI_Result result = {0, 0.0, "无结果"};
